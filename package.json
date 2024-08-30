@@ -1,0 +1,23 @@
+{
+  "name": "average-rtt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serve.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc -w",
+    "build": "tsc",
+    "serve": "node serve.js"
+  },
+  "keywords": [],
+  "author": "Ruben Krbashyan",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@types/ws": "^8.5.12",
+    "http-server": "^14.1.1",
+    "typescript": "^5.5.4"
+  }
+}
