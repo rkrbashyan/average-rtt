@@ -9,7 +9,7 @@ $ pnpm install
 $ pnpm serve
 ```
 
-This script starts up http-server at http://localhost:6969/ to serve `index.html` and the web socket server ([server.mts](./server.mts)). See [serve.js](./serve.js) for more details.
+This script starts up http-server at http://localhost:6969/ to serve `index.html` and the web socket server ([server.ts](./server.ts)). See [serve.js](./serve.js) for more details.
 
 ## Dev
 
